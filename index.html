@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,84 +8,88 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="img/forFav.png" type="image/x-icon">
 </head>
+
 <body>
 
-<frameset rows="100%,*">
-    <frame src="header.html">
-    <frame src="content.html">
-</frameset>
+    <frameset rows="100%,*">
+        <frame src="header.html">
+            <frame src="content.html">
+    </frameset>
 
-<center>
-    <h1>
-        The <span id="tada">TADADADA</span> store
-    </h1>
-    <i style="color: rgb(162, 162, 162);">Original Compostition</i>
+    <center>
+        <h1>
+            The <span id="tada">TADADADA</span> store
+        </h1>
+        <i style="color: rgb(162, 162, 162);">Original Compostition</i>
+        <br>
+        <br>
+        <a href="https://www.linkedin.com/in/shoukath-ali-shaik-9b2b43280/"
+            style="text-decoration: none;background-color: rgb(7, 255, 251);color: black;" target="_blank">(Please don't
+            click here)</a>
+    </center>
+
+    <h2>Product Information</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>T-Shirt</td>
+                <td>$19.99</td>
+                <td>Comfortable and stylish</td>
+            </tr>
+            <tr>
+                <td>Mug</td>
+                <td>$9.99</td>
+                <td>Perfect for your morning coffee</td>
+            </tr>
+            <tr>
+                <td>Laptop Case</td>
+                <td>$39.99</td>
+                <td>Protect your device in style</td>
+            </tr>
+        </tbody>
+    </table>
     <br>
-    <br>
-    <a href="https://www.linkedin.com/in/shoukath-ali-shaik-9b2b43280/" style="text-decoration: none;background-color: rgb(7, 255, 251);color: black;">(Please don't click here)</a>
-</center>
 
-<h2>Product Information</h2>
-<table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>T-Shirt</td>
-            <td>$19.99</td>
-            <td>Comfortable and stylish</td>
-        </tr>
-        <tr>
-            <td>Mug</td>
-            <td>$9.99</td>
-            <td>Perfect for your morning coffee</td>
-        </tr>
-        <tr>
-            <td>Laptop Case</td>
-            <td>$39.99</td>
-            <td>Protect your device in style</td>
-        </tr>
-    </tbody>
-</table>
-<br>
+    <h2>Contact Us</h2>
+    <form action="mailto:example@email.com" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="number" id="phone" name="phone" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        <button type="submit">Send</button>
+    </form>
 
-<h2>Contact Us</h2>
-<form action="mailto:example@email.com" method="post">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
-    <label for="phone">Phone Number:</label>
-    <input type="number" id="phone" name="phone" required><br><br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="5" required></textarea><br><br>
-    <button type="submit">Send</button>
-</form>
+    <hr>
 
-<hr>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>T-Shirt</li>
+        <li>Mug</li>
+        <li>Laptop Case</li>
+    </ul>
 
-<h3>Unordered List</h3>
-<ul>
-    <li>T-Shirt</li>
-    <li>Mug</li>
-    <li>Laptop Case</li>
-</ul>
+    <hr>
 
-<hr>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>T-Shirt</li>
+        <li>Step 2</li>
+        <li>Step 3</li>
+    </ol>
 
-<h3>Ordered List</h3>
-<ol>
-    <li>T-Shirt</li>
-    <li>Step 2</li>
-    <li>Step 3</li>
-</ol>
-
-<img src="img/heyYouBrats.png" alt="HeyYouBrats">
+    <img src="img/heyYouBrats.png" alt="HeyYouBrats">
 
 </body>
+
 </html>
